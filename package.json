@@ -1,0 +1,27 @@
+{
+  "name": "six-figure-insider-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Six Figure Insider — public newsletter archive",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "archive:add": "tsx scripts/add-issue.ts"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.5",
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "mailparser": "3.7.2",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}
